@@ -100,6 +100,10 @@ hash: ## Hash a password
 	@$(call GREEN, "Hashing Password...")
 	$(SYMFONY_CONSOLE) security:hash-password
 
+reset: ## Hash a password
+	@$(call GREEN, "Hashing Password...")
+	$(SYMFONY_CONSOLE) make:reset-password
+
 clear: # Clear the cache
 	@$(call GREEN, "Clearing cache...")
 	$(SYMFONY_CONSOLE) cache:clear

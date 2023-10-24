@@ -27,9 +27,6 @@ Réseau social permettant
 #### Démarrer le projet
 
     $ cd network/
-    $ composer install
-    $ yarn install
-    $ symfony serve -d
-    $ yarn dev-server
+    $ make init
 
 Accédez ensuite à l'application dans votre navigateur à l'URL indiquée (https://localhost:8000 par défaut).
